@@ -256,3 +256,88 @@ footer div #twitter:hover {
     background-image: url(../SitioOrigami/twitter-negro.png);
     background-color: #fff;
 }
+
+#contenido-pantalla {
+    position: relative;
+    display: block;
+    overflow: auto;
+    height: 654px;
+}
+
+#contenido-columna {
+    position: relative;
+    display: block;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+#contenido-descargas {
+    position: relative;
+    display: block;
+    float: left;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+#imagen-columna {
+    position: relative;
+    display: block;
+    background-image: url(https://via.placeholder.com/225/C5E4F4);
+    height: 225px;
+}
+
+#contenido-columna>a {
+    position: relative;
+    display: block;
+    background-color: #00adee;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+#contenido-columna>p {
+    position: relative;
+    display: block;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+#descargas {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+
+#descargas * {
+    padding-left: 40px;
+}
+
+#descargas h1 {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    font-weight: none;
+}
+
+#descargas h2 {
+    position: relative;
+    display: block;
+    color: #00adee;
+    font-weight: normal;
+    line-height: 2px;
+}
+
+#descargas h3 {
+    position: relative;
+    display: block;
+    color: #6d6370;
+    font-weight: normal;
+    margin-left: 40px;
+    font-size: 20px;
+}
