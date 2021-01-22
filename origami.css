@@ -12,6 +12,9 @@ body {
     width: 900px;
     background-color: white;
     margin: 0 auto;
+    -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
 }
 
 header,
@@ -41,6 +44,9 @@ nav a {
     text-decoration: none;
     padding: 10px;
     margin-top: 8px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 nav a:hover {
@@ -64,6 +70,10 @@ nav #logo {
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 30px;
+    -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 
 #imagen-encabezado {
@@ -123,6 +133,9 @@ nav #logo {
     padding: 10px;
     text-decoration: none;
     color: #58595b;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 #noticias>div>a>span {
@@ -135,6 +148,9 @@ nav #logo {
 
 #noticias>div>a>p {
     margin: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 #noticias>div>a:hover {
@@ -230,6 +246,28 @@ footer div a {
     display: inline-block;
     width: 33px;
     height: 33px;
+}
+
+footer div a:hover {
+    position: relative;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    -webkit-animation: animacionb 1s ease alternate;
+    -moz-animation: animacionb 1s ease alternate;
+    animation: animacionb 1s ease alternate;
+}
+
+@keyframes animacionb {
+    0% {
+        transform: rotateX(0deg);
+    }
+    50% {
+        transform: rotateX(100deg);
+    }
+    100% {
+        transform: rotateY(100deg);
+    }
 }
 
 footer div #facebook {
@@ -358,6 +396,9 @@ footer div #twitter:hover {
     font-weight: bold;
     margin-right: 20px;
     margin-left: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 #contenido-pantalla>#contenido-columna>#link-fases>a:hover {
